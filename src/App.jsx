@@ -4,6 +4,7 @@ import About from "./sections/About"
 import Projects from "./components/Projects"
 import Clients from "./sections/Clients"
 import Contacts from "./sections/Contacts"
+import Footer from "./sections/Footer"
 const App = () => {
   return (
     <main className="max-w-7xl mx-auto">
@@ -13,6 +14,7 @@ const App = () => {
             <Projects />
             <Clients />
             <Contacts />
+            <Footer />
     </main>
   )
 }
